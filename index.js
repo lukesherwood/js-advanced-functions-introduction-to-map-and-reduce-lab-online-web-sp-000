@@ -37,7 +37,11 @@ function reduceToTotal (array, total=0){
 function reduceToAllTrue (array) {
   let truth = true
   for (const element of array) {
-    if (element == tr)
+    if (element === false){
+      truth = false
+    }
+    return truth
+  }
 }
 
 
