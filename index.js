@@ -37,8 +37,8 @@ function reduceToTotal (array, total=0){
 function reduceToAllTrue (array) {
   for (const element of array) {
     if (!element) return false
-    return true
   }
+  return true
 }
 
 function reduceToAnyTrue(src) {
