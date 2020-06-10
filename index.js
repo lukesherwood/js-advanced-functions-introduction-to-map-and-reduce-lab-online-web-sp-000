@@ -28,7 +28,7 @@ function mapToSquare (array){
 }
 
 function reduceToTotal (array){
-  total = 0
+  let total = 0
   for (const element of array) {
   total+element;
   }
