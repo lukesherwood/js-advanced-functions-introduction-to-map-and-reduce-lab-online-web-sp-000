@@ -30,7 +30,7 @@ function mapToSquare (array){
 function reduceToTotal (array){
   let total = 0
   for (const element of array) {
-  total+element;
+  total + element;
   }
   return total;
 }
