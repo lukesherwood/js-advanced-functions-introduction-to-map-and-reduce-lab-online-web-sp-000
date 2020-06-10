@@ -37,10 +37,7 @@ function reduceToTotal (array, total=0){
 function reduceToAllTrue (array) {
   let truth = true
   for (const element of array) {
-    if (element === false){
-    truth = false
-    return truth
-    }
+    if !element return false
     return truth
   }
 }
