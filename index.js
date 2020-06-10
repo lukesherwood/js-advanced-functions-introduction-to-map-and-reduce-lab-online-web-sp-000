@@ -34,3 +34,5 @@ function reduceToTotal (array){
   }
   return total;
 }
+
+
