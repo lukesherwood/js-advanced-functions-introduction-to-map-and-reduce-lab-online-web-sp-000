@@ -38,7 +38,7 @@ function reduceToAllTrue (array) {
   let truth = true
   for (const element of array) {
     if (element === false){
-      truth = false
+    return truth = false
     }
     return truth
   }
