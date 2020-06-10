@@ -34,5 +34,10 @@ function reduceToTotal (array, total=0){
   return total;
 }
 
+function reduceToAllTrue (array) {
+  let truth = true
+  for (const element of array) {
+    if (element == tr)
+}
 
 
