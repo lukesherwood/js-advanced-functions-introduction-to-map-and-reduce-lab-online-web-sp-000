@@ -41,9 +41,9 @@ function reduceToAllTrue (array) {
   return true
 }
 
-function reduceToAnyTrue(src) {
-  for (let i = 0; i < src.length; i++ ) {
-    if (src[i]) return true
+function reduceToAllTrue (array) {
+  for (const element of array) {
+    if (element) return true
   }
   return false
 }
