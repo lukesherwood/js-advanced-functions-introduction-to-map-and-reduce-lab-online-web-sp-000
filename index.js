@@ -41,7 +41,7 @@ function reduceToAllTrue (array) {
   return true
 }
 
-function reduceToAllTrue (array) {
+function reduceToAnyTrue (array) {
   for (const element of array) {
     if (element) return true
   }
